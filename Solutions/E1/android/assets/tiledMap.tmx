@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="10" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="background" tilewidth="70" tileheight="70">
+  <image source="background.png" width="1750" height="700"/>
+ </tileset>
+ <layer name="Background" width="25" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwNw1OQFQAAAMCXbfOybdu2bduuy/Zftm3btm3b2JndOYFAYK7znO8CF7rIxS5xqctc7gpXusrVrnGt61zvBje6yc1ucavb3O4Od7rL3e5xr/vc7wEPesjDHvGoxzzuCU96ytOe8aznPO8FL3rJy17xqte87g1vesvb3vGu97zvAx/6yMc+8anPfO4LX/rK177xre987wc/+snPfvGr3/zuD3/6y9/+8a//DITAkIYytGEMazjDG8GIRjKyUYxqNKMbw5jGMrZxjGs845vAhCYysUlMapDJTG4KU5rK1KYxrelMbwYzmsnMZjGr2cxuDnOay9zmMa/5zG8BC1rIwhaxqMUsbglLWsrSlrGs5SxvBStaycpWsarVrG4Na1rL2taxrvWsbwMb2sjGNrGpzWxuC1vayta2sa3tbG8HO9rJznaxq93sbg972sve9rGv/ezvAAc6yMEOcajDHO4Igx3pKEc7xrGOc7wTnOgkJzvFqU5zujOc6Sxn+x8PWHx/
+  </data>
+ </layer>
+ <layer name="Terrain" width="25" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjZIAMHxgckSTC/FIhn4sCxJLqVBYp5oTQywGUHNQHIvAwks2FsbAA9PDNJsAOfP0qQzERXk04knsmA6T5c+tHt0SES4/IHMWppYQcArhIw4g==
+  </data>
+ </layer>
+ <layer name="Decoration" width="25" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgaQHOgHUAnoEdj892A2AqJT81wdYTSQVQ0cxRQBwAAKGkBlA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="25" height="10">
+  <object name="PlayerStart" x="0" y="350" width="70" height="70"/>
+  <object name="PlayerGoal" x="1680" y="350" width="70" height="70"/>
+  <object name="returnStart" x="0" y="700" width="1750" height="70"/>
+ </objectgroup>
+ <objectgroup name="Physics" width="25" height="10">
+  <object x="0" y="420" width="350" height="280"/>
+  <object x="140" y="210" width="70" height="70"/>
+  <object x="910" y="210" width="70" height="70"/>
+  <object x="980" y="140" width="420" height="560"/>
+  <object x="1400" y="210" width="70" height="70"/>
+  <object x="1540" y="420" width="210" height="70"/>
+  <object x="-70" y="0" width="70" height="700"/>
+  <object x="1750" y="0" width="70" height="700"/>
+  <object x="490" y="280" width="280" height="70"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="25" height="10">
+  <object x="560" y="210" width="70" height="70"/>
+  <object x="1400" y="140" width="70" height="70"/>
+ </objectgroup>
+</map>
